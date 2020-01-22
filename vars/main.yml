@@ -1,0 +1,30 @@
+---
+# vars file for pc-common
+packages:
+  - sudo
+  - aptitude
+  - git-all
+  - htop
+  - nyancat
+  - screen
+  - software-properties-common
+  - python3-software-properties
+  - unattended-upgrades
+  - vim
+  - wget
+  - whois
+  - iputils-ping
+  - host
+  - traceroute
+  - tree
+  - build-essential
+  - linux-headers-${ansible_kernel}
+  - apt-transport-https
+  - python-mysqldb
+  - net-tools
+  - screenfetch
+  - ncdu
+  - zip
+  - unzip
+  - default-jre
+  - default-jdk
